@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="font-figtree">
+    <main class="bg-yellow flex items-center justify-center min-h-screen px-4">
+      <div
+        class="p-6 bg-white border border-black rounded-2xl max-w-96 shadow-[8px_8px_0_0_rgba(0,0,0,1)]"
+      >
+        <img
+          src="./assets/images/illustration-article.svg"
+          alt="illustration-article"
+          class="rounded-xl"
+        />
+        <div class="mt-6 flex flex-col items-start gap-3">
+          <span
+            class="capitalize bg-yellow px-3 py-1 rounded text text-preset-3-bold"
+            >learning</span
+          >
+          <p class="text-preset-3">Published 21 Dec 2023</p>
+          <h1 class="text-preset-1 cursor-pointer hover:text-yellow transition">
+            HTML & CSS foundations
+          </h1>
+          <p class="text-preset-2">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+        <div class="flex gap-3 items-center mt-6">
+          <img
+            class="w-8 h-8 rounded-full"
+            src="./assets/images/image-avatar.webp"
+            alt="image-avatar"
+          />
+          <p class="text-preset-3-bold capitalize">grek hooper</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
